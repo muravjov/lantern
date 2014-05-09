@@ -1,0 +1,5 @@
+Инструкция:
+
+virtualenv -p python3.3 env
+env/bin/pip install git+ssh://git@github.com/muravjov/lantern.git
+env/bin/python -m lantern
